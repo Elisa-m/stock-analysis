@@ -14,7 +14,7 @@ After building the financial model, Steve ran the model with 12 stocks that he's
 Overall, 2017 was a good year for this portfolio of stocks with the exeption of TERP which showed -7.2% return for the year. It's also important to point out that even though DQ had the highest return out of all the stocks in the portfolio, its total daily volume was the lowest. In fact, the total daily volume for SPWR was 22 times larger than DQ. Steve must evaluate if DQ fits his definition of high trade volume stocks and should remain in the portfolio. 
 
 ### 2018 Portfolio Performance 
-
+![](AllStocks_2018.png)
 2018 was a tough year for the bunch. All except two stocks ended the year with negative returns. ENPH and RUN both grew total daily volume and maintained positive returns in what was a clear bear market for the portfolio. Steve should keep these two stocks in the portfolio and discard all other stocks, including DQ. However, Steve still needs to bring in more stocks to the portfolio to diversify. Thus, Steve should continue to pull in stocks to the financial model until he reaches 12 stocks that fit the portfolio's criteria. 
 
 ### Financial Model Performance 
@@ -23,7 +23,10 @@ Two subroutines were created in a search for the fastest run-time. It was critic
 ### Original Subroutine Performance 
 ![](2017_Not_Refactored.png)
 ![](2018_Not_Refactored.png)
+This subroutine used nested loops to go through the data set. In fact, this subroutine went through the entire data set 12 times: 1 time per ticker. This structure was not scalable for unknown tiker quantities in a data set. 
 
 ### Refactored Subroutine Performance 
 ![](VBA_Challenge_2017.png)
 ![](VBA_Challenge_2018.png) 
+This subroutine did not use nested loops to go through the data set. It just went through the data set once! As a result, this refactored subroutine performed the calculations 0.4 seconds faster than the original subroutine, and this difference would only increase as ticker quantities increase. Thus, this is a scalable structure that supports unknown tiker quantities in a data set. 
+
