@@ -14,7 +14,7 @@ After building the financial model, Steve ran the model with 12 stocks that he's
 Overall, 2017 was a good year for this portfolio of stocks with the exeption of TERP which showed -7.2% return for the year. It's also important to point out that even though DQ had the highest return out of all the stocks in the portfolio, its total daily volume was the lowest. In fact, the total daily volume for SPWR was 22 times larger than DQ. Steve must evaluate if DQ fits his definition of high trade volume stocks and should remain in the portfolio. 
 
 ### 2018 Portfolio Performance 
-![](AllStocks_2018.png)
+
 2018 was a tough year for the bunch. All except two stocks ended the year with negative returns. ENPH and RUN both grew total daily volume and maintained positive returns in what was a clear bear market for the portfolio. Steve should keep these two stocks in the portfolio and discard all other stocks, including DQ. However, Steve still needs to bring in more stocks to the portfolio to diversify. Thus, Steve should continue to pull in stocks to the financial model until he reaches 12 stocks that fit the portfolio's criteria. 
 
 ### Financial Model Performance 
