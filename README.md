@@ -35,4 +35,4 @@ This subroutine did not use nested loops to go through the data set. It just wen
 ![](VBA_Challenge_2018.png) 
 
 ### Summary
-As seen in this exercise, code refactoring code may be advantagious to improve program speed. It's critical to look for ways to make the code run faster when dealing with varying data sets. However, regactoring code is time consuming and may not be necesary when dealing with fixed data sets. 
+As seen in this exercise, refactoring code may be advantagious to improve program speed. It's critical to look for ways to make the code run faster when dealing with varying data sets. However, regactoring code is time consuming and may not be necesary when dealing with fixed data sets. 
